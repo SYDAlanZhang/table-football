@@ -43,3 +43,10 @@ In this project, we have players and games which have multiply to multiply relat
 So, normally, I should build a table for players, a table for games and also a connection table between them.
 However, in this project, a player do not need to signup and login. We do not record complex informations of each players. So, I simplify the table structures and increase the insert speed.
 You could find table structures from 'db.sql' file.
+
+## Running at localhost
+```
+cd src
+node tableFootball.js
+```
+This would running a test server on localhost:3000
